@@ -43,7 +43,7 @@ class instance extends instance_skel {
 	//Execute the provided action
 	action(action) {
 		let opt = action.options;
-		let cmd = '';
+		let cmd;
 
 		switch (action.action) {
 
@@ -53,7 +53,7 @@ class instance extends instance_skel {
 				break;
 		}
 
-		if (cmd != undefined && cmd != ''){
+		if (cmd != undefined){
 			
 			this.debug('sending tcp ', cmd, ' to', this.config.host);
 			
@@ -138,8 +138,6 @@ class instance extends instance_skel {
 				this.status(this.STATUS_OK);
 				this.log("Connection Established");
 			});
-
-			//this.socket.on('data', (data) => this.debug("I GOT: " + data));
 
 		}
 	}
