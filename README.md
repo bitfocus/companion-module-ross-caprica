@@ -1,1 +1,1 @@
-# companion-module-ross-caprica
+# companion-module-rossvideo-caprica
