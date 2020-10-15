@@ -1,0 +1,25 @@
+{
+  "name": "rossvideo-caprica",
+  "version": "1.0.0",
+  "keywords": [
+    "Protocol",
+    "Software"
+  ],
+  "manufacturer": "Ross Video",
+  "product": "Caprica",
+  "shortname": "Caprica",
+  "description": "Control Ross Video Caprica, part of Ross Overdrive",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitfocus/companion-module-rossvideo-caprica.git"
+  },
+  "author": "Noah Callaway <noah@thecallaways.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bitfocus/companion-module-rossvideo-caprica/issues"
+  }
+}
